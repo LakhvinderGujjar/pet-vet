@@ -1,0 +1,106 @@
+/* .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 149px auto;
+    max-width: 336px;
+    border: 6px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 29px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0px;
+  }
+  
+  i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+   */
+   /* Updated Login Page CSS */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 149px auto;
+    max-width: 336px;
+    border: 6px solid #ff8c00; /* Orange border color */
+    padding: 20px;
+    background-color: #fff; /* White background color */
+    border-radius: 29px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff8c00; /* Orange text color */
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0px;
+  }
+  
+  i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #ff8c00; /* Orange icon color */
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+  .login-button {
+    background-color: #ff8c00; /* Orange button background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #ff6f00; /* Darker orange on hover */
+  }
+  

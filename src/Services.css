@@ -1,0 +1,50 @@
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .service-card {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: #f9f9f9; 
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    background-color: #e6e6e6; 
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-content img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+  }
+  
+  .rating {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .rating span {
+    color: #ffbb00; 
+  }
+  
+  .rating .filled {
+    color: #ffbb00; 
+  }
+  
+  
+   

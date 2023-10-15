@@ -1,0 +1,41 @@
+.header {
+    /* background-color: lavender; */
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title i {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  
+  .title h1 {
+    font-family: cursive;
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
